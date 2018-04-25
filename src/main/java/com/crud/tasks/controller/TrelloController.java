@@ -27,8 +27,7 @@ public class TrelloController {
                 System.out.println("Our board contains lists: ");
                 System.out.println(trelloBoardDto.getId() + " " + trelloBoardDto.getName());
             });
-
+        
         return trelloClient.getTrelloBoards();
-
     }
 }
