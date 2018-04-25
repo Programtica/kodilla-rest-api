@@ -93,8 +93,8 @@
       <file leaf-file-name="TrelloController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="257">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -578,9 +578,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/TasksApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" />
       </list>
     </option>
   </component>
@@ -872,7 +872,7 @@
       <workItem from="1524480681473" duration="634000" />
       <workItem from="1524565794886" duration="3816000" />
       <workItem from="1524575411744" duration="602000" />
-      <workItem from="1524651771033" duration="3955000" />
+      <workItem from="1524651771033" duration="4245000" />
     </task>
     <servers />
   </component>
@@ -886,13 +886,15 @@
     <history-entry file="TasksApplicationTests - 2018.04.25 at 12h 44m 41s.xml">
       <configuration name="TasksApplicationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TasksApplicationTests - 2018.04.25 at 13h 32m 30s.xml">
+      <configuration name="TasksApplicationTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70597000" />
+    <option name="totallyTimeSpent" value="70887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -914,8 +916,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32621083" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29538906" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3633842" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2920228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -1315,8 +1317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="257">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
