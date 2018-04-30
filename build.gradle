@@ -32,8 +32,12 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile('org.projectlombok:lombok')
 
-	//compile('mysql:mysql-connector-java')
-	compile('org.postgresql:postgresql')
+	//Swagger
+	compile('io.springfox:springfox-swagger2:2.7.0')
+	compile('io.springfox:springfox-swagger-ui:2.7.0')
+
+	compile('mysql:mysql-connector-java')
+	//compile('org.postgresql:postgresql')
 
 	//providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 }
