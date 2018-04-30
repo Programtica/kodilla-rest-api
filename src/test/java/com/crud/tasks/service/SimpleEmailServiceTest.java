@@ -24,17 +24,17 @@ public class SimpleEmailServiceTest {
     @Test
     public void shouldSendEmail() {
         //Given
-        Mail mail = new Mail("kontakt@mryndak.pl", "Test", "TestMessage", "kondmo@gmail.com");
+        Mail mail = new Mail("\"kondmo@gmail.com", "Test", "TestMessage");
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(mail.getMailTo());
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
-        mailMessage.setCc(mail.getToCc());
+        //mailMessage.setCc(mail.getToCc());
 
-        if(mail.getToCc() == null) {
-            System.out.println("We can't add the second reciever!");
-        }
+        //if(mail.getToCc() == null) {
+            //System.out.println("We can't add the second reciever!");
+        //}
 
         //When
         simpleEmailService.send(mail);
