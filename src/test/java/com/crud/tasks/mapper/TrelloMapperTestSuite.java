@@ -29,10 +29,10 @@ public class TrelloMapperTestSuite {
         String boardId = "22982823";
 
         List<TrelloListDto> lists = new ArrayList<>();
-        lists.add(new TrelloListDto(listName, listId, listIsClosed));
+        lists.add(new TrelloListDto(listId, listName, listIsClosed));
 
         List<TrelloBoardDto> trelloBoardDto = new ArrayList<>();
-        trelloBoardDto.add(new TrelloBoardDto(boardName, boardId, lists));
+        trelloBoardDto.add(new TrelloBoardDto(boardId, boardName, lists));
 
         //When
         List<TrelloBoard> boardListDto = trelloMapper.mapToBoards(trelloBoardDto);
@@ -55,10 +55,10 @@ public class TrelloMapperTestSuite {
         String boardId = "22982823";
 
         List<TrelloList> lists = new ArrayList<>();
-        lists.add(new TrelloList(listName, listId, listIsClosed));
+        lists.add(new TrelloList(listId, listName, listIsClosed));
 
         List<TrelloBoard> trelloBoard = new ArrayList<>();
-        trelloBoard.add(new TrelloBoard(boardName, boardId, lists));
+        trelloBoard.add(new TrelloBoard(boardId, boardName, lists));
 
         //When
         List<TrelloBoardDto> boardListDto = trelloMapper.mapToBoardsDto(trelloBoard);
