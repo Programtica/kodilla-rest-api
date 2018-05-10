@@ -13,7 +13,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.times;
 
 @RunWith(MockitoJUnitRunner.class)
-public class SimpleEmailServiceTest {
+public class SimpleEmailServiceTestSuite {
 
     @InjectMocks
     private SimpleEmailService simpleEmailService;
