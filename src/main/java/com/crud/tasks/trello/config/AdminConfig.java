@@ -12,4 +12,7 @@ public class AdminConfig {
 
     @Value("${admin.name}")
     private String adminName;
+
+    @Value("Kodilla Bootcamp")
+    private String adminWork;
 }

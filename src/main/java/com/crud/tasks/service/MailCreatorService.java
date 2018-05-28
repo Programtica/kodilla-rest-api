@@ -20,10 +20,14 @@ public class MailCreatorService {
     public String buildTrelloCardEmail(String message) {
         Context context = new Context();
         context.setVariable("message", message);
+        context.setVariable("before", "Before the text of message");
         context.setVariable("tasks_url", "http://localhost:8888/crud");
         context.setVariable("button", "Visit website");
+        context.setVariable("message_for_end", "See you soon");
         context.setVariable("admin_name", adminConfig.getAdminName());
         context.setVariable("show_button", false);
+        context.setVariable("is_friend", true);
+        context.setVariable("admin_work", adminConfig.getAdminWork());
         return templateEngine.process("mail/created-trello-card-mail", context);
     }
 }
