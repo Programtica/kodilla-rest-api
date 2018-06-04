@@ -73,17 +73,8 @@ public class TrelloControllerTestSuite {
     @Test
     public void shouldCreateTrelloCard() throws Exception {
         // Given
-        TrelloCardDto trelloCardDto = new TrelloCardDto(
-                "Test",
-                "Test description",
-                "top",
-                "1"
-        );
-        CreatedTrelloCardDto createdTrelloCardDto = new CreatedTrelloCardDto(
-                "323",
-                "Test",
-                "http://test.com"
-        );
+        TrelloCardDto trelloCardDto = new TrelloCardDto("Test", "Test description", "top", "1");
+        CreatedTrelloCardDto createdTrelloCardDto = new CreatedTrelloCardDto("323", "Test", "http://test.com");
         when(trelloFacade.createdCard(any(TrelloCardDto.class))).thenReturn(createdTrelloCardDto);
 
         Gson gson = new Gson();
